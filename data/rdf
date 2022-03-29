@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:adms="http://www.w3.org/ns/adms#"
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:donl="https://data.overheid.nl/dcat.rdf#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:v="http://www.w3.org/2006/vcard/"
+>
+  <rdf:Description rdf:nodeID="dataset.verkiezingsuitslagen-gemeenteraad-2022.distribution.3">
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dct:title xml:lang="nl">Kandidatenlijsten Gemeenteraad 2022 (CSV)</dct:title>
+    <dcat:accessURL rdf:resource="https://data.overheid.nl/sites/default/files/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43/resources/GR2022_alle-kandidaten_2022-02-22T08.34.csv"/>
+    <donl:distributionType rdf:resource="https://data.overheid.nl/distributiontype/download"/>
+    <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/deed.nl"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Distribution"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2022-02-17T19:32:14.041338</dct:issued>
+    <dct:description xml:lang="nl">Deze dataset bevat de voorlopige kandidatenlijsten van de gemeenteraadsverkiezingen van 2022.&#13;
+De bron van de dataset zijn de EML gegevensbestanden.&#13;
+&#13;
+Mogelijk hebben Centraalstembureaus (CSB) nog wijzigingen doorgevoerd die de Kiesraad nog niet heeft ontvangen.&#13;
+Dit kan n.a.v. een proefdruk, waar sommige CSB's de ruimte zien om na vaststelling nog correcties te maken.&#13;
+&#13;
+Advies is om samenvoeging van GemeenteCode, LijstNummer en KandidaatNummer als primary key te gebruiken om updates te verwerken.&#13;
+&#13;
+**Updates:** de kolom *PublicatieGeslachtTaal* is hernoemd naar *DocumentTaal*. Geslacht 'unknown' welke eerder als '*u*' werd vermeld is omgezet naar '*?*'.</dct:description>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43.rdf"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/verkiezingsuitslagen-gemeenteraad-2022.rdf"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset.verkiezingsuitslagen-gemeenteraad-2022.distribution.2">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43.rdf"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/verkiezingsuitslagen-gemeenteraad-2022.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Distribution"/>
+    <dcat:accessURL rdf:resource="https://data.overheid.nl/sites/default/files/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43/resources/GR2022_osv4-3_2022-03-24T15.33.zip"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2022-03-23T21:38:28.867663</dct:issued>
+    <dct:title xml:lang="nl">Gegenereerde osv4-3 per gemeente (CSV)</dct:title>
+    <dct:description xml:lang="nl">Deze dataset bevat de gegenereerde osv4-3 CSV per gemeente, welke te openen is met een spreadsheet programma, zoals LibreOffice Calc (Open Source) of Microsoft Excel.&#13;
+De bron van de dataset zijn de EML gegevensbestanden.&#13;
+&#13;
+**LET OP:** dit zijn niet een oorspronkelijke CSV bestanden en kunnen daarom afwijken van de door de gemeente gepubliceerde osv4-3's, welke direct uit OSV2020 komen en niet op basis van de EML zijn gegenereerd.&#13;
+Zo mist in de EML het veld 'aangetroffen stembiljetten' en deze is hier gegenereerd op basis van geldige stemmen + blanco + ongeldig, normaliter zijn deze aantallen gelijk, maar er zijn uitzonderlijke situaties waar dit af kan wijken.&#13;
+&#13;
+Tot en met 29 maart kan de gemeenteraad besluiten een hertelling uit te voeren. Let daarom op de bestandsdatum om te zien wanneer het bestand is gegenereerd.&#13;
+De modificatiedatum van de bestanden is gelijkgetrokken aan de kr:CreationDateTime. I.v.m. standalone airgapped computers hebben sommige computers een incorrecte datum.&#13;
+&#13;
+Mogelijk hebben Centraalstembureaus (CSB) nog wijzigingen doorgevoerd die de Kiesraad nog niet heeft ontvangen.</dct:description>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <donl:distributionType rdf:resource="https://data.overheid.nl/distributiontype/download"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/deed.nl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.overheid.nl/dataset/verkiezingsuitslagen-gemeenteraad-2022">
+    <donl:authority rdf:resource="http://standaarden.overheid.nl/owms/terms/Kiesraad"/>
+    <dcat:contactPoint rdf:nodeID="dataset.verkiezingsuitslagen-gemeenteraad-2022.contactPoint"/>
+    <dcat:distribution rdf:nodeID="dataset.verkiezingsuitslagen-gemeenteraad-2022.distribution.4"/>
+    <adms:identifier rdf:resource="https://data.overheid.nl/data/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43"/>
+    <adms:identifier rdf:resource="https://data.overheid.nl/data/dataset/verkiezingsuitslagen-gemeenteraad-2022"/>
+    <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/deed.nl"/>
+    <dcat:distribution rdf:nodeID="dataset.verkiezingsuitslagen-gemeenteraad-2022.distribution.1"/>
+    <donl:identifier rdf:resource="https://data.overheid.nl/dataset/verkiezingsuitslagen-gemeenteraad-2022"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Dataset"/>
+    <dcat:theme rdf:resource="http://standaarden.overheid.nl/owms/terms/Gemeenten"/>
+    <adms:identifier rdf:resource="https://data.overheid.nl/dataset/verkiezingsuitslagen-gemeenteraad-2022"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/verkiezingsuitslagen-gemeenteraad-2022"/>
+    <adms:identifier rdf:resource="https://data.overheid.nl/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43"/>
+    <donl:classifiedAs rdf:resource="https://data.overheid.nl/dcat.rdf#HighValue"/>
+    <dcat:distribution rdf:nodeID="dataset.verkiezingsuitslagen-gemeenteraad-2022.distribution.3"/>
+    <donl:status rdf:resource="http://data.overheid.nl/status/beschikbaar"/>
+    <dct:description xml:lang="nl">Deze dataset bevat de voorlopige gegevens (verkiezingsdefinities en kandidatenlijsten) van de gemeenteraadsverkiezingen van 2022. De dataset bevat de gegevensbestanden in EML formaat. De Kiesraad biedt geen ondersteuning voor het gebruik van het formaat.&#13;
+&#13;
+Waar bestanden niet beschikbaar zijn, is in de dataset hiervan een vermelding opgenomen bij de gegevensbestanden van de betreffende gemeente.&#13;
+&#13;
+Meer informatie over het EML formaat: https://www.kiesraad.nl/verkiezingen/osv-en-eml/eml-standaard&#13;
+&#13;
+Bestemmingspagina: https://www.kiesraad.nl/verkiezingen/verkiezingsuitslagen&#13;
+</dct:description>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43"/>
+    <donl:publisher rdf:resource="http://standaarden.overheid.nl/owms/terms/Kiesraad"/>
+    <donl:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:title xml:lang="nl">Verkiezingsuitslagen Gemeenteraad 2022</dct:title>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2022-02-23T12:26:37</dct:modified>
+    <donl:sourceCatalog rdf:resource="https://data.overheid.nl"/>
+    <dcat:distribution rdf:nodeID="dataset.verkiezingsuitslagen-gemeenteraad-2022.distribution.2"/>
+    <donl:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <donl:metadataLanguage rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset.verkiezingsuitslagen-gemeenteraad-2022.distribution.4">
+    <dcat:accessURL rdf:resource="https://data.overheid.nl/sites/default/files/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43/resources/GR2022_alle-kandidaten_2022-02-22T08.34.json"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Distribution"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/verkiezingsuitslagen-gemeenteraad-2022.rdf"/>
+    <dct:description xml:lang="nl">Deze dataset bevat de voorlopige kandidatenlijsten van de gemeenteraadsverkiezingen van 2022.&#13;
+De bron van de dataset zijn de EML gegevensbestanden.&#13;
+&#13;
+Mogelijk hebben Centraalstembureaus (CSB) nog wijzigingen doorgevoerd die de Kiesraad nog niet heeft ontvangen.&#13;
+Dit kan n.a.v. een proefdruk, waar sommige CSB's de ruimte zien om na vaststelling nog correcties te maken.&#13;
+&#13;
+Advies is om samenvoeging van GemeenteCode, LijstNummer en KandidaatNummer als primary key te gebruiken om updates te verwerken.&#13;
+&#13;
+**Updates**: de *PublicatieGeslachtTaal* is hernoemd naar *DocumentTaal*. Geslacht 'unknown' welke eerder als '*u*' werd vermeld is omgezet naar '*?*'. *PublicatieGeslacht* is van *ja*/*nee* omgezet naar boolean (*true*/*false*). *KandidaatNummer* is nu numeriek (voorheen string). Een lege string (in *Roepnaam*, *Tussenvoegsel*, *Geslacht* en 3 gevallen van *Woonplaats*) wordt nu *null*.</dct:description>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43.rdf"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2022-02-17T19:36:07.557983</dct:issued>
+    <dct:title xml:lang="nl">Kandidatenlijsten Gemeenteraad 2022 (JSON)</dct:title>
+    <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/deed.nl"/>
+    <donl:distributionType rdf:resource="https://data.overheid.nl/distributiontype/download"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.overheid.nl/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/verkiezingsuitslagen-gemeenteraad-2022.rdf"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+    <adms:status xml:lang="nl">:updated</adms:status>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2022-03-28T21:20:36.951592</dct:modified>
+    <foaf:primaryTopic rdf:resource="https://data.overheid.nl/dataset/verkiezingsuitslagen-gemeenteraad-2022"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43.rdf"/>
+    <dct:title xml:lang="nl">verkiezingsuitslagen-gemeenteraad-2022</dct:title>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2022-02-17T07:40:31.551304</dct:issued>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dct:description xml:lang="nl">Deze dataset bevat de voorlopige gegevens (verkiezingsdefinities en kandidatenlijsten) van de gemeenteraadsverkiezingen van 2022. De dataset bevat de gegevensbestanden in EML formaat. De Kiesraad biedt geen ondersteuning voor het gebruik van het formaat.&#13;
+&#13;
+Waar bestanden niet beschikbaar zijn, is in de dataset hiervan een vermelding opgenomen bij de gegevensbestanden van de betreffende gemeente.&#13;
+&#13;
+Meer informatie over het EML formaat: https://www.kiesraad.nl/verkiezingen/osv-en-eml/eml-standaard&#13;
+&#13;
+Bestemmingspagina: https://www.kiesraad.nl/verkiezingen/verkiezingsuitslagen&#13;
+</dct:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/access-right/PUBLIC">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#OpenbaarheidsNiveau"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset.verkiezingsuitslagen-gemeenteraad-2022.distribution.1">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43.rdf"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/dataset/verkiezingsuitslagen-gemeenteraad-2022.rdf"/>
+    <dcat:accessURL rdf:resource="https://data.overheid.nl/sites/default/files/dataset/08b04bec-3332-4c76-bb0c-68bfaeb5df43/resources/GR2022_2022-03-28T21.19.zip"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2022-02-17T07:42:58.070906</dct:issued>
+    <dct:description xml:lang="nl">Dit betreft een pre-publicatie met Verkiezingsdefinities, Kandidatenlijsten en voorlopige Telling- en Resultaat-bestanden voor de gemeenteraadsverkiezingen van 16 maart 2022.&#13;
+&#13;
+Tot en met 29 maart kan de gemeenteraad besluiten een hertelling uit te voeren. Let daarom op de bestandsdatum, danwel kr:creationdatetime om te zien wanneer het bestand is gegenereerd.&#13;
+&#13;
+De dataset bevat de gegevensbestanden in EML formaat. De Kiesraad biedt geen ondersteuning voor het gebruik van het formaat.&#13;
+&#13;
+Meer informatie over het EML formaat: https://www.kiesraad.nl/verkiezingen/osv-en-eml/eml-standaard&#13;
+&#13;
+Mogelijk hebben Centraalstembureaus (CSB) nog wijzigingen doorgevoerd die de Kiesraad nog niet heeft ontvangen.&#13;
+&#13;
+Advies is om samenvoeging van GemeenteCode, LijstNummer en KandidaatNummer als primary key te gebruiken om updates te verwerken, ofwel bij elke //eml:Candidate de XPath:&#13;
+    concat(/eml:EML/eml:CandidateList/eml:Election/eml:ElectionIdentifier/kr:ElectionDomain/@Id,format-number(../eml:AffiliationIdentifier/@Id,"00"),format-number(eml:CandidateIdentifier/@Id,"00"))</dct:description>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Distribution"/>
+    <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/deed.nl"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+    <donl:distributionType rdf:resource="https://data.overheid.nl/distributiontype/download"/>
+    <dct:title xml:lang="nl">Verkiezingsuitslagen Gemeenteraad 2022 (EML)</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.overheid.nl/distributiontype/download">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#DistributionType"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://standaarden.overheid.nl/owms/terms/Kiesraad">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dataset.verkiezingsuitslagen-gemeenteraad-2022.contactPoint">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Kind"/>
+    <v:email rdf:resource="mailto:kiesraad@kiesraad.nl"/>
+    <v:fn xml:lang="nl">Kiesraad</v:fn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/file-type/CSV">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Format"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.overheid.nl/status/beschikbaar">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#DatasetStatus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://creativecommons.org/publicdomain/zero/1.0/deed.nl">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#License"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/file-type/ZIP">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Format"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/file-type/JSON">
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Format"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://standaarden.overheid.nl/owms/terms/Gemeenten">
+    <rdf:type rdf:resource="http://standaarden.overheid.nl/owms/terms/Thema"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/NLD">
+    <rdf:type rdf:resource="https://data.overheid.nl/dcat.rdf#Language"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.overheid.nl">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <rdfs:isDefinedBy rdf:resource="https://data.overheid.nl/vocabularies.rdf"/>
+  </rdf:Description>
+</rdf:RDF>
