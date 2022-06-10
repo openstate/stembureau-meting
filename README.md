@@ -11,3 +11,6 @@ Als je de code zelf wilt uitvoeren of aanpassen, installeer dan [Jupyter Noteboo
     - `pip3 install jupyter`
     - `pip3 install -r requirements.txt`
     - `python3 -m notebook` hiermee start je de Notebook
+
+# Data
+Het opgeschoonde databestand met de 8582 stemlokalen op basis van de [Waar is mijn stemlokaal](https://waarismijnstemlokaal.nl/) data is te vinden in [data/export/full_export.csv](https://github.com/openstate/stembureau-meting/blob/main/data/export/full_export.csv) (rechtermuis-klik de 'Download'-knop en selecteer de optie om de link op te slaan).
