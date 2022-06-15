@@ -1,6 +1,6 @@
 geopandas==0.10.2
 MarkupSafe==2.0.1
-traitlets==5.2.1.post0
+traitlets==5.2.2.post1
 pygments>=2.4.1
 Jinja2>=3.0
 ipython==7.23.1
